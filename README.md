@@ -45,5 +45,7 @@ export class AppModule { }
 <input [(ngModel)]="inputValue" name="inputNumberField" class="form-control" type="text" allowOnlyNumeric />
 ```
 Note:
+
 => "'allowOnlyNumeric' specifies the directive for the input field."
+
 => "'ngModel' must be available for this directive to work."
