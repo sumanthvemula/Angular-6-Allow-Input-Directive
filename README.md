@@ -8,7 +8,7 @@ import {InputIntDirective} from './directives/input-int-directive';
 ```
 Note: "Please include import statement according to the location of directive."
 
-=> Specify Module name in app.modules[declarations, exports].
+=> Specify Directive name in app.modules[declarations, exports].
 
 Example:
 ```
