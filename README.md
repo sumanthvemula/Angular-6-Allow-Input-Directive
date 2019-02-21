@@ -6,7 +6,7 @@
 ```
 import {InputIntDirective} from './directives/input-int-directive';
 ```
-Note:"Please include import statement according to the location of directive."
+Note: "Please include import statement according to the location of directive."
 
 => Specify Module name in app.modules[declarations, exports].
 
@@ -44,5 +44,6 @@ export class AppModule { }
 ```
 <input [(ngModel)]="inputValue" name="inputNumberField" class="form-control" type="text" allowOnlyNumeric />
 ```
-Note:"'allowOnlyNumeric' specifies the directive for the input field."
-Note:"'ngModel' must be available for this directive to work."
+Note:
+=> "'allowOnlyNumeric' specifies the directive for the input field."
+=> "'ngModel' must be available for this directive to work."
